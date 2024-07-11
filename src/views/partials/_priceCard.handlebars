@@ -1,0 +1,12 @@
+{{#each coindata}}
+  <div class="price-card">
+    <p class="coin-name">{{name}}</p>
+    <p class="coin-value">{{value}} {{currency}}</p>
+    <p class="coin-date-subject">
+      checked at:
+      <span class="coin-date">
+        {{updatedAt}}
+      </span>
+    </p>
+  </div>
+{{/each}}
